@@ -55,8 +55,11 @@ const examples = {
     },
     'TLC4Anno': {
         title: 'Esempio TLC 4° Anno',
-        images: ['assets/TLC.png']
+        images: ['assets/onde.png']
     },
+
+
+
 
     // Video
     'video_videogioco': {
