@@ -99,7 +99,6 @@ li * {
 
 
 
-
 /* --- TABELLA.HTML ---- */
 #tabella {
     border-radius: 5px;
@@ -212,7 +211,7 @@ footer {
     border-width: 1px !important;
     border-color: #e0e0e0 !important;
     width: 400px;
-    min-height: 500px;
+    min-height: 350px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -242,6 +241,36 @@ footer {
     margin: 5px 0;
     line-height: 1.4;
 }
+
+    .toggle-materie {
+        /* border: solid red 2px; */
+        padding: 10px 20px;
+        border-radius: var(--radius);
+        color: var(--blue) !important; 
+    }
+    .toggle-materie:hover {
+        /* border: solid red 2px; */
+        padding: 10px 20px;
+        border-radius: var(--radius);
+        color: var(--blue);
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    .materie-aggiuntive {
+        margin-bottom: 20px;
+        padding: 20px;
+        border-radius: var(--radius);
+        overflow: hidden;
+        height: fit-content;
+        border: #9e9e9e 1px solid;
+    }
+    .materie-aggiuntive-off {
+        display: none;
+    }
+    .materie-aggiuntive-on {
+        display: block;
+    }
 
 .btn_card.argomenti.card-btn {
     margin-top: auto;
