@@ -15,9 +15,11 @@
     -webkit-focus-ring-color: transparent;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     /* alternativa */
+    user-select: none;
 }
 
 body {
+    width: 100vw;
     overflow-x: hidden;
     padding-bottom: 200px;
 }
@@ -35,11 +37,15 @@ h1 {
 
 #scriscia {
     /* border: solid red 2px; */
-    width: 100vw;
+    width: 100%;
     height: 200px;
     position: relative;
-    top: 200px;
+    top: 100px;
     background-color: var(--blue);
+}
+#scriscia div {
+    /* border: 1px solid #000; */
+    width: 100%;
 }
 
 .bg-blu h1 {
@@ -102,7 +108,7 @@ li * {
 /* --- TABELLA.HTML ---- */
 #tabella {
     border-radius: 5px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px;
     background-color: var(--blue);
     color: #fff;
@@ -144,7 +150,7 @@ footer {
     background-color: #0763b9;
     /* border: solid red 2px; */
     color: rgb(255, 255, 255);
-    width: 100vw;
+    width: 100%;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -246,14 +252,13 @@ footer {
         /* border: solid red 2px; */
         padding: 10px 20px;
         border-radius: var(--radius);
-        color: var(--blue) !important; 
+        font-weight: bold;
     }
     .toggle-materie:hover {
         /* border: solid red 2px; */
         padding: 10px 20px;
         border-radius: var(--radius);
-        color: var(--blue);
-        text-decoration: underline;
+        /* text-decoration: underline; */
         cursor: pointer;
     }
 
@@ -337,6 +342,7 @@ details {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    /* margin-top: 50px; */
 }
 summary {
     font-size: 20px;

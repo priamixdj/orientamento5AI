@@ -7,7 +7,7 @@ const examples = {
     },
     'Informatica4Anno': {
         title: 'Esempio Informatica 4° Anno',
-        images: ['assets/esempio4Java.png']
+        images: ['assets/esempio4Java.png', 'assets/output_info_java.png']
     },
     'Informatica5Anno': {
         title: 'Esempio Informatica 5° Anno',
@@ -63,7 +63,7 @@ const examples = {
 
     // Video
     'video_videogioco': {
-        title: 'Video Videogioco:',
+        title: 'Short videogioco:',
         images: ['assets/video.mp4']
     }
 };

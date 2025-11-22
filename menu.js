@@ -8,7 +8,8 @@ div.innerHTML = `
         <div class="col-4">
             <img id="logo" src="assets/logo.png" alt="LogoScuola">
         </div>
-        <div class="col-4 text-center">
+        <div class="col-4 text-center mt-2">
+            
             <h4>ORIENTAMENTO IN ENTRATA - SCUOLA APERTA</h4>
             <h1>ISTITUTO TECNICO TECNOLOGICO INFORMATICA E TELECOMUNICAZIONI</h1>
         </div>
