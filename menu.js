@@ -5,15 +5,15 @@ console.log(div);
 div.classList.add('container-fluid', 'position-relative');
 div.innerHTML = `
     <div class="row d-flex align-items-center">
-        <div class="col-4">
+        <div class="col-4 logo-cont">
             <img id="logo" src="assets/logo.png" alt="LogoScuola">
         </div>
-        <div class="col-4 text-center mt-2">
+        <div class="col-4 text-center mt-5">
             
             <h4>ORIENTAMENTO IN ENTRATA - SCUOLA APERTA</h4>
             <h1>ISTITUTO TECNICO TECNOLOGICO INFORMATICA E TELECOMUNICAZIONI</h1>
         </div>
-        <div class="col-4 d-flex justify-content-end position-relative">
+        <div class="col-4 d-flex justify-content-end position-absolute circle_container">
             <nav id="nav-circle" class="d-flex gap-3 center">
                 <div>
                     <a class="nav-link text-white fw-bold" href="index.html">Home</a>

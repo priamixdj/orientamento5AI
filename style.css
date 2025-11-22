@@ -60,6 +60,17 @@ h1 {
     background-color: var(--white);
 }
 
+
+.circle_container {
+    /* border: 1px solid #000; */
+    top: 120px;
+    right: 0;
+}
+header .logo-cont {
+    /* border: 1px solid #000; */
+    position: relative;
+    top: -30px;
+}
 #nav-circle {
     width: 400px;
     height: 400px;
@@ -92,7 +103,7 @@ h1 {
 header {
     overflow: visible !important;
     z-index: 10;
-    position: fixed;
+    position: absolute;
     background-color: var(--white);
     /* border: solid red 2px; */
 }
